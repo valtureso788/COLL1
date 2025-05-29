@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\app\\Desktop\\CollegeManagementSystem\\CollegeManagementSystem.csproj": {}
+    "C:\\Users\\meow\\Desktop\\COLL1\\CollegeManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\app\\Desktop\\CollegeManagementSystem\\CollegeManagementSystem.csproj": {
+    "C:\\Users\\meow\\Desktop\\COLL1\\CollegeManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\app\\Desktop\\CollegeManagementSystem\\CollegeManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\meow\\Desktop\\COLL1\\CollegeManagementSystem.csproj",
         "projectName": "CollegeManagementSystem",
-        "projectPath": "C:\\Users\\app\\Desktop\\CollegeManagementSystem\\CollegeManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\app\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\app\\Desktop\\CollegeManagementSystem\\obj\\",
+        "projectPath": "C:\\Users\\meow\\Desktop\\COLL1\\CollegeManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\meow\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\meow\\Desktop\\COLL1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\app\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\meow\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net6.0": {
@@ -75,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }
