@@ -1,42 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SQLite;
 
-namespace CollegeManagementSystem.Models {
-    public class Person {
+namespace CollegeManagementSystem.Models
+{
+    public class Student
+    {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string FullName { get; set; } = string.Empty;
         public DateTime BirthDate { get; set; }
-        public string Role { get; set; }
-    }
-
-    public class Student : Person {
         public int GroupId { get; set; }
     }
 
-    public class Teacher : Person {
+    public class Teacher
+    {
+        public int Id { get; set; }
+        public string FullName { get; set; } = string.Empty;
+        public string Subject { get; set; } = string.Empty;
     }
 
-    public class Group {
+    public class Group
+    {
         public int Id { get; set; }
-        public string Name { get; set; }
-    }
-
-    public class Course {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int TeacherId { get; set; }
-    }
-
-    public class ScheduleEntry {
-        public int Id { get; set; }
-        public int GroupId { get; set; }
-        public int CourseId { get; set; }
-        public string Day { get; set; }
-        public string Time { get; set; }
-    }
-
-    public class Mark {
-        public int Id { get; set; }
-        public int StudentId { get; set; }
-        public int CourseId { get; set; }
-        public int Value { get; set; }
+        public string Name { get; set; } = string.Empty;
     }
 }
